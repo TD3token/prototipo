@@ -1,0 +1,37 @@
+TD3-Tokenized-Circular-Economy/
+├── README.md
+├── LICENSE
+├── CONTRIBUTING.md
+├── CODE_OF_CONDUCT.md
+├── docs/
+│   ├── overview.md
+│   ├── partners.md
+│   ├── technology.md
+│   ├── market-regulation.md
+├── src/
+│   ├── contracts/
+│   │   ├── TD3Token.sol
+│   │   ├── MyCarbonIntegration.sol
+│   │   ├── QuipotechIntegration.sol
+│   ├── backend/
+│   │   ├── api/
+│   │   │   ├── industry-tracking.js
+│   │   │   ├── carbon-credit-calculator.js
+│   │   ├── db/
+│   │       ├── schema.sql
+│   │       ├── seed-data.sql
+│   ├── frontend/
+│       ├── public/
+│       ├── src/
+│           ├── App.js
+│           ├── components/
+│           ├── pages/
+├── tests/
+│   ├── unit/
+│   │   ├── token.test.js
+│   ├── integration/
+│       ├── end-to-end.test.js
+└── assets/
+    ├── diagrams/
+    ├── logos/
+    └── mockups/
